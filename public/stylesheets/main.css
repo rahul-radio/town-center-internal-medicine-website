@@ -1,0 +1,96 @@
+/* Global CSS */
+body, html {
+    font-family: 'Montserrat', sans-serif;
+    color: #77a03f;
+    height: 100%;
+    margin: 0;  
+}
+
+.container-fluid {
+    padding:0;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+h5 {
+    font-style: italic;
+    font-weight: 300;
+    font-size: .99em;
+}
+
+
+footer {
+    color: white;
+    background-color: #77a03f;
+    padding-top: 1em;
+    padding-bottom: .5em;
+    font-weight: 300;
+    text-transform: uppercase;
+    vertical-align: center;
+    line-height: 2em;
+    /* position:absolute;
+    bottom:0; */
+    width:100%;
+}
+
+#copyright{
+    text-align: left;
+}
+
+#socialFooter {
+    float: right;
+    font-size: 2em;
+    vertical-align: center;
+    color: white;
+}
+
+#socialFooter:hover {
+    color: #3b5998;
+}
+
+
+.btn-secondary {
+    color: white;
+    background-color: #77a03f;
+}
+
+.bgimg-1, .carouselSlide1, .carouselSlide2, .carouselSlide3 {
+    position: relative;
+    /* opacity: 0.65; */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-1 {
+    background-image: url("http://junction-creative.com/wp-content/uploads/2017/10/bg_about.jpg");
+    min-height: 400px;
+}
+
+/* .carouselSlide1 {
+      background-image: url("../Images/BPReading.jpeg");
+      min-height: 100%;
+}
+
+.carouselSlide2 {
+    background-image: url("../Images/Stethoscope.jpeg");
+    height: 100%;
+}
+
+.carouselSlide3 {
+    background-image: url("../Images/XrayReading.jpeg");
+    height: 100%;
+} */
+
+/* @media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+} */
+
+
+  
+

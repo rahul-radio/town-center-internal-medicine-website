@@ -1,0 +1,58 @@
+#contactUsContainer{
+    padding-top: 3em;
+    padding-bottom: 3em;
+    
+}
+
+#contactUsBanner {
+    color: #77a03f;
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 3em;
+    text-transform: uppercase;
+    font-size: 3em;
+    width: auto;
+    position:relative;
+}
+
+.contactus {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+.contactus {
+    background-image: url("/Images/contactus.jpg");
+    min-height: 400px;
+    width: 100%;
+    background-size: cover;
+    display:block;
+    margin:auto;
+}
+
+.btn-success {
+    background-color: #77a03f;
+    border-color: white;
+}
+.btn-success:hover {
+    background-color: white;
+    color: #77a03f;
+    border-color: #77a03f;
+}
+
+#addressDiv {
+    color: #77a03f;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+@media screen and (min-width: 992px) {
+    #map {
+        width: 100%;
+        height: 75%;
+    }
+  }

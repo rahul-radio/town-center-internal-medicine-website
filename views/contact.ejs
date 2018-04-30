@@ -1,0 +1,54 @@
+<% include ./partials/header %>
+
+<div class="container-fluid">
+  <div class="contactus" background="contactus.jpg">
+    <h3 id="contactUsBanner">Contact Us</h3>
+  </div>
+</div>
+
+<div class="container" id="contactUsContainer"> 
+    <div class="row">
+        <div id="addressDiv"class="col-lg-6">
+            <a id="addressDiv" href="https://www.google.com/maps/place/Town+Center+Internal+Medicine/@29.5876901,-95.6322308,18.56z/data=!4m5!3m4!1s0x8640e6a36fa1443b:0x10d6b75c404357c3!8m2!3d29.586742!4d-95.6293252">
+              3511 Town Center Blvd South, Suite 101</a>
+            <h5 id="addressDiv">Sugar Land, TX 77479</h5>
+            <h5 id="addressDiv">Phone Number:</h5>
+            <h5 id="addressDiv">(281)-565-0738</h5>
+            <h5 id="addressDiv">Hours of Operation:</h5>
+            <h5 id="addressDiv">Mon-Fri: 9 a.m. - 5 p.m.</h5>
+            <div id="map"></div>
+        </div>
+        <div class="col-lg-6">
+          <form>
+            <div class="form-group">
+                <div class="form-row">
+                  <label for="exampleInputEmail1">Name</label>
+                  <input type="text" class="form-control" placeholder="Name">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <label for="exampleInputEmail1">Subject</label>
+                  <input type="text" class="form-control" placeholder="Subject">
+                  <label for="exampleInputEmail1">Phone Number</label>
+                  <input type="text" class="form-control" placeholder="Phone Number">
+                </div>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Regarding</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>Internal Medicine</option>
+                <option>Podiatric Medicine</option>
+              </select>
+            </div>
+              <div class="form-group">
+                      <label for="exampleFormControlTextarea1">Message</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-success">Submit</button>
+              <small id="emailHelp" class="form-text text-muted text-center">Please do not include any personal medical information on this form. This is not a HIPAA compliant form. We will contact you for further information.</small>
+            </form>
+          </div>
+      </div>
+</div>
+
+
+<% include ./partials/footer %>

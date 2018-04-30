@@ -1,0 +1,48 @@
+/* NavBar CSS */
+.navbar {
+  position: fixed;
+  width: 100%;
+}
+
+.navbar-brand{
+  font-weight: 300;
+    
+}
+
+.nav-item {
+  font-weight: 300;
+}
+
+@media screen and (min-width: 992px) {
+  .navbar {
+    padding: 25px;
+    
+}
+
+  nav.navbar.shrink {
+    max-height: 20px;
+  }
+  
+  nav.shrink a {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    font-size: 15px;
+  }
+  
+  nav.shrink .navbar-brand {
+    letter-spacing: .05em;
+  } 
+  
+  nav.shrink .navbar-toggle {
+    padding: 4px 5px;
+    margin: 8px 15px 8px 0;
+  } 
+  
+}
+
+@media screen and (max-width: 550px) {
+  .navbar-brand{
+    font-weight: 300;
+    font-size: .8em;
+  }
+}
