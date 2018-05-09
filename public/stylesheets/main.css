@@ -66,24 +66,9 @@ footer {
 }
 
 .bgimg-1 {
-    background-image: url("http://junction-creative.com/wp-content/uploads/2017/10/bg_about.jpg");
+    background-image: url("../Images/bg_landing.jpeg");
     min-height: 400px;
 }
-
-/* .carouselSlide1 {
-      background-image: url("../Images/BPReading.jpeg");
-      min-height: 100%;
-}
-
-.carouselSlide2 {
-    background-image: url("../Images/Stethoscope.jpeg");
-    height: 100%;
-}
-
-.carouselSlide3 {
-    background-image: url("../Images/XrayReading.jpeg");
-    height: 100%;
-} */
 
 /* @media only screen and (max-device-width: 1366px) {
     .parallax {
