@@ -32,7 +32,7 @@ var port = parseInt(process.env.PORT) || 27017;
 
 // Tell express to listen to requests on a certain port
 //Need to add back process.env.PORT once ready to test.
-app.listen(process.env.PORT, process.env.IP, function(){
+app.listen(27017, process.env.IP, function(){
     console.log("Server has started");
 });
 

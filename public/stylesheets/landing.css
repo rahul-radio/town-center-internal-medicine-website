@@ -1,77 +1,81 @@
 @media screen, print {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Address Bar CSS */
+#addressBar {
+  height: 1em;
 }
   
-  /* CUSTOMIZE THE CAROUSEL
-  -------------------------------------------------- */
+/* CUSTOMIZE THE CAROUSEL */
 
-  .full-screen {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
-  #carouselExampleIndicators{
-      padding:0em;
-      height: auto;
-  }
+#carouselExampleIndicators{
+    padding:0em;
+    height: auto;
+}
 
-  .carousel-indicators{
-      height: 5%;
-  }
+.carousel-indicators{
+    height: 5%;
+}
 
-  .carousel-control-prev, .carousel-control-next{
-    height: 100%;
-  }
-  
-  #carouselText{
-    background-color: rgba(0,0,0,.5);
-    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-           0px 8px 13px rgba(0,0,0,0.1),
-           0px 18px 23px rgba(0,0,0,0.1);
-    font-size: 250%;
-    color: white;
-    text-transform: uppercase;
-    top: 50%;
-    transform: translateY(-50%);
-    bottom: initial;
-  } 
+.carousel-control-prev, .carousel-control-next{
+  height: 100%;
+}
 
-  /* Meet the team */
+#carouselText{
+  background-color: rgba(0,0,0,.5);
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+          0px 8px 13px rgba(0,0,0,0.1),
+          0px 18px 23px rgba(0,0,0,0.1);
+  font-size: 250%;
+  color: white;
+  text-transform: uppercase;
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
+} 
 
-  #meetTheTeam {
-      padding-top: 3em;
-  }
+/* Meet the team */
 
-  #headingTag{
-    color: gray;
-    text-transform: uppercase;
-    text-align: center;
-  }
+#meetTheTeam {
+    padding-top: 3em;
+}
 
-  #theDoctors{
-    text-align: center;
-    /* padding: 2em; */
-  }
+#headingTag{
+  color: gray;
+  text-transform: uppercase;
+  text-align: center;
+}
 
-  #doctorSquare{
-    padding: 2em;
-    text-align: center;
-  }
+#theDoctors{
+  text-align: center;
+  /* padding: 2em; */
+}
 
-  #doctorImages{
-    padding-bottom: 2em;
-  }
+#doctorSquare{
+  padding: 2em;
+  text-align: center;
+}
 
-  #blurb {
-    text-align: left;
-    color: gray;
-  }
+#doctorImages{
+  padding-bottom: 2em;
+}
 
-  #bannerPhoto{
-   padding: 5%;
-  }
+#blurb {
+  text-align: left;
+  color: gray;
+}
+
+#bannerPhoto{
+  padding: 5%;
+}
 
 /* About Us */
 #caption {
