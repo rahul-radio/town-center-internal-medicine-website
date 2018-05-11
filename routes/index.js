@@ -24,4 +24,7 @@ router.get("/internalMedicine", function(req, res){
     res.render("internalMedicine");
 });
 
+router.get("/*", function(req, res){
+    res.redirect("/");
+});
 module.exports = router;
