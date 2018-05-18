@@ -5,7 +5,7 @@
 	</footer>
 			
 			
-			
+			<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 			<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 			<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
@@ -24,10 +24,15 @@
 						map: map
 					  });
 					}
-				  </script>
-				  <script async defer
+			</script>
+			<script async defer
 				  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6OduFeIMbLN0O9wVoik83-LaodIPUAZI&callback=initMap">
-				  </script>
+			</script>
+			<script>
+				AOS.init({
+					duration: 600,
+				})
+			</script>
 		</body>
 	
 </html>

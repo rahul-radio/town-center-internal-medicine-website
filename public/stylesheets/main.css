@@ -24,10 +24,15 @@ h5 {
     font-size: .99em;
 }
 
+#listGrid{
+    padding: .1em;
+
+  }
+
 
 footer {
     color: white;
-    background-color: #77a03f;
+    background-color: gray;
     padding-top: 1em;
     padding-bottom: .5em;
     font-weight: 300;
