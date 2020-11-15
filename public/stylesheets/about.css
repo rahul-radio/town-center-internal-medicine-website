@@ -52,6 +52,24 @@
     line-height: 2em;
 }
 
+/* Services We Offer */
+#servicesOffered {
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
+  
+  #servicesGrid{
+    padding: .1em;
+  }
+  
+  /* #servicesGrid :hover {
+    opacity: .2;
+  }
+  
+  #servicesGrid :hover + #centered{
+    opacity: .2;
+  } */
+
 /* Hospital Affiliations */
 #affiliations{
     padding-top: 1em;

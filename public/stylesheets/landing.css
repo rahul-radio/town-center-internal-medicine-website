@@ -95,24 +95,6 @@
   font-weight: 300;
 }
 
-/* Services We Offer */
-#servicesOffered {
-  padding-top: 3em;
-  padding-bottom: 3em;
-}
-
-#servicesGrid{
-  padding: .1em;
-}
-
-#servicesGrid :hover {
-  opacity: .2;
-}
-
-#servicesGrid :hover + #centered{
-  opacity: .2;
-}
-
 /* Centered text on services offered images */
 #centered {
   position: absolute;
