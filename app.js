@@ -27,6 +27,7 @@ app.use(methodOverride("_method")); //enable method override for PUT and Delete 
 app.use(flash()); //For flash notifications
 
 // User the routes we required above
+app.use(sslRedirect());
 app.use(routes);
 
 // var port = parseInt(process.env.PORT) || 27017;
