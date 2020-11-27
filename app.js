@@ -5,6 +5,7 @@ var bodyParser      = require("body-parser"),
     app             = express(),
     mongoose        = require("mongoose"),
     flash           = require("connect-flash"),
+    sslRedirect     = require('heroku-ssl-redirect');
     methodOverride  = require("method-override");
 
 //Require routes for pages
@@ -23,7 +24,7 @@ app.set("view engine", "ejs");
 app.use(methodOverride("_method")); //enable method override for PUT and Delete methods
 // seedDB();
 
-app.use(flash()); //For flash notifications 
+app.use(flash()); //For flash notifications
 
 // User the routes we required above
 app.use(routes);
@@ -36,4 +37,3 @@ app.use(routes);
 app.listen(process.env.PORT || 27017 , process.env.IP, function(){
     console.log("Server has started");
 });
-
