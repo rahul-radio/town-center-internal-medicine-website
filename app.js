@@ -1,12 +1,14 @@
 // Require Node Modules
+var sslRedirect = require("heroku-ssl-redirect");
 var bodyParser      = require("body-parser"),
     request         = require("request"),
     express         = require("express"),
     app             = express(),
-    mongoose        = require("mongoose"),
+    // mongoose        = require("mongoose"),
     flash           = require("connect-flash"),
-    sslRedirect     = require('heroku-ssl-redirect');
     methodOverride  = require("method-override");
+
+// app.use(sslRedirect());
 
 //Require routes for pages
 var routes          =  require("./routes/index");
@@ -27,7 +29,13 @@ app.use(methodOverride("_method")); //enable method override for PUT and Delete 
 app.use(flash()); //For flash notifications
 
 // User the routes we required above
-app.use(sslRedirect());
+app.use((req, res, next) => {
+    if (req.header('x-forwarded-proto') !== 'https') {
+      res.redirect(`https://${req.header('host')}${req.url}`)
+    } else {
+      next();
+    }
+  });
 app.use(routes);
 
 // var port = parseInt(process.env.PORT) || 27017;
