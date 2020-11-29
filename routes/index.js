@@ -5,7 +5,6 @@ var router      = express.Router();
 // =============================
 // LANDING PAGE ROUTE
 // =============================
-// app.use(sslRedirect());
 
 router.get("/", function(req, res) {
     res.render("landing");
