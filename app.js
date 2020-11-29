@@ -1,9 +1,8 @@
 // Require Node Modules
-var sslRedirect = require("heroku-ssl-redirect");
+var enforce = require("express-sslify");
 var bodyParser      = require("body-parser"),
     request         = require("request"),
     express         = require("express"),
-    enforce = require('express-sslify'),
     app             = express(),
     // mongoose        = require("mongoose"),
     flash           = require("connect-flash"),
