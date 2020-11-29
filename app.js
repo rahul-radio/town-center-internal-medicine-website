@@ -10,6 +10,7 @@ var bodyParser      = require("body-parser"),
     methodOverride  = require("method-override");
 
 //Require routes for pages
+app.use(enforce.HTTPS({ trustProtoHeader: true }))
 var routes          =  require("./routes/index");
 
 // Connect mongoose to Mongo
@@ -28,7 +29,6 @@ app.use(methodOverride("_method")); //enable method override for PUT and Delete 
 app.use(flash()); //For flash notifications
 
 // User the routes we required above
-app.use(enforce.HTTPS({ trustProtoHeader: true }))
 app.use(routes);
 
 // var port = parseInt(process.env.PORT) || 27017;
