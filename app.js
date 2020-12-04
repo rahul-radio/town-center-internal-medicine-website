@@ -1,5 +1,5 @@
 // Require Node Modules
-// var enforce = require("express-sslify");
+var enforce = require("express-sslify");
 var bodyParser      = require("body-parser"),
     request         = require("request"),
     express         = require("express"),
@@ -9,7 +9,7 @@ var bodyParser      = require("body-parser"),
     methodOverride  = require("method-override");
 
 //Require routes for pages
-// app.use(enforce.HTTPS({ trustProtoHeader: true }))
+app.use(enforce.HTTPS({ trustProtoHeader: true }))
 var routes          =  require("./routes/index");
 
 // Connect mongoose to Mongo
