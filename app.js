@@ -1,5 +1,5 @@
 // Require Node Modules
-var enforce = require("express-sslify");
+// var enforce = require("express-sslify");
 var bodyParser      = require("body-parser"),
     request         = require("request"),
     express         = require("express"),
