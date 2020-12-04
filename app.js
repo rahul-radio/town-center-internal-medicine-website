@@ -9,7 +9,7 @@ var bodyParser      = require("body-parser"),
     methodOverride  = require("method-override");
 
 //Require routes for pages
-app.use(enforce.HTTPS({ trustProtoHeader: true }))
+// app.use(enforce.HTTPS({ trustProtoHeader: true }))
 var routes          =  require("./routes/index");
 
 // Connect mongoose to Mongo
